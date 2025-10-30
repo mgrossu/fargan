@@ -25,3 +25,4 @@ This allows you to generate paired datasets of **original and compressed frames*
 ```bash
 python prepare_dataset.py convert /path/to/images /path/to/output_videos --bitrate 500k --verbose
 
+### 2. Extract frames from video

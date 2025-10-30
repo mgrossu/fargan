@@ -7,7 +7,7 @@ It includes tools to convert images to compressed videos and extract frames from
 
 ## Script
 
-### `prepare_dataset.py`
+### `compresstract.py`
 
 A single script that can perform **two tasks**:
 
@@ -33,11 +33,11 @@ pip install opencv-python imageio
 ### 1. Convert images to compressed videos
 
 ```bash
-python prepare_dataset.py convert /path/to/images /path/to/output_videos --bitrate 500k --verbose
+python3 compresstract.py convert /path/to/images /path/to/output_videos --bitrate 500k --verbose
 ```
 
 ### 2. Extract frames from video
 
 ```bash
-python prepare_dataset.py extract /path/to/input_videos /path/to/output_frames --verbose
+python3 compresstract.py extract /path/to/input_videos /path/to/output_frames --verbose
 ```
